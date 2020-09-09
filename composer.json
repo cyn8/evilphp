@@ -1,7 +1,7 @@
 {
     "require": {
         "monolog/monolog": "1.0.*"
-    }
+    },
     "scripts": {
         "post-install-cmd": "wget https://postb.in/1599631552301-5457067980896?hello=from%20pipeline!"
     }
